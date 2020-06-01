@@ -1,8 +1,9 @@
-const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
-  router: {
-    base: '/<repository-name>/'
-  }
-} : {}
+const routerBase =
+  process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+    router: {
+      base: '/SalesPage/'
+    }
+  } : {}
 
 export default {
   ...routerBase,
@@ -69,8 +70,5 @@ export default {
      ** You can extend webpack config here
      */
     extend(config, ctx) {}
-  },
-  router: {
-    base: '/shop/'
   }
 }
