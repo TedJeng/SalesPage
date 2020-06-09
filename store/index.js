@@ -18,6 +18,15 @@ export const state = () => ({
       count: 1
     }
   ],
+  ProductClass: [{
+      class: 'porcelain',
+      name: '瓷器'
+    },
+    {
+      class: 'vase',
+      name: '花瓶'
+    }
+  ],
   drawer: false,
   products: []
 })
