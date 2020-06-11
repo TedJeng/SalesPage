@@ -27,8 +27,8 @@ export default {
     product
   },
   async asyncData({ store }) {
-    let { data } = await axios.get('https://jsonplaceholder.typicode.com/posts')
-    data = [
+    //let { data } = await axios.get('https://jsonplaceholder.typicode.com/posts')
+    let data = [
       {
         product_id: 1,
         product_name: '花瓶1',
