@@ -48,7 +48,7 @@ export default {
     }
   },
   data: () => ({
-    title: '賣骨董'
+    title: '骨店'
   })
 }
 </script>
