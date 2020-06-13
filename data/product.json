@@ -1,0 +1,80 @@
+[{
+    "product_id": 1,
+    "product_name": "花瓶1",
+    "product_short_desc": "花瓶描述1",
+    "product_desc": "Nuxt is a progressive framework based on Vue.js to create modern web applications. It is based on Vue.js official libraries (vue, vue-router and vuex) and powerful development tools (webpack, Babel and PostCSS). Nuxt's goal is to make web development powerful and performant with a great developer experience in mind.",
+    "price": 1000,
+    "discount": 10,
+    "picture": "1",
+    "class": "porcelain"
+  },
+  {
+    "product_id": 2,
+    "product_name": "花瓶2",
+    "product_short_desc": "花瓶描述2",
+    "product_desc": "Nuxt is a progressive framework based on Vue.js to create modern web applications. It is based on Vue.js official libraries (vue, vue-router and vuex) and powerful development tools (webpack, Babel and PostCSS). Nuxt's goal is to make web development powerful and performant with a great developer experience in mind.",
+    "price": 6666,
+    "discount": 1,
+    "class": "vase"
+  },
+  {
+    "product_id": 3,
+    "product_name": "花瓶3",
+    "product_short_desc": "花瓶描述3",
+    "product_desc": "Nuxt is a progressive framework based on Vue.js to create modern web applications. It is based on Vue.js official libraries (vue, vue-router and vuex) and powerful development tools (webpack, Babel and PostCSS). Nuxt's goal is to make web development powerful and performant with a great developer experience in mind.",
+    "price": 3000,
+    "discount": 6,
+    "picture": "1",
+    "class": "porcelain"
+  },
+  {
+    "product_id": 4,
+    "product_name": "花瓶4",
+    "product_short_desc": "花瓶描述4",
+    "product_desc": "Nuxt is a progressive framework based on Vue.js to create modern web applications. It is based on Vue.js official libraries (vue, vue-router and vuex) and powerful development tools (webpack, Babel and PostCSS). Nuxt's goal is to make web development powerful and performant with a great developer experience in mind.",
+    "price": 5000,
+    "discount": 5,
+    "picture": "2",
+    "class": "porcelain"
+  },
+  {
+    "product_id": 5,
+    "product_name": "花瓶5",
+    "product_short_desc": "花瓶描述5",
+    "product_desc": "Nuxt is a progressive framework based on Vue.js to create modern web applications. It is based on Vue.js official libraries (vue, vue-router and vuex) and powerful development tools (webpack, Babel and PostCSS). Nuxt's goal is to make web development powerful and performant with a great developer experience in mind.",
+    "price": 10000,
+    "discount": 0,
+    "picture": "1",
+    "class": "vase"
+  },
+  {
+    "product_id": 6,
+    "product_name": "花瓶6",
+    "product_short_desc": "花瓶描述6",
+    "product_desc": "Nuxt is a progressive framework based on Vue.js to create modern web applications. It is based on Vue.js official libraries (vue, vue-router and vuex) and powerful development tools (webpack, Babel and PostCSS). Nuxt's goal is to make web development powerful and performant with a great developer experience in mind.",
+    "price": 10000,
+    "discount": 0,
+    "picture": "1",
+    "class": "vase"
+  },
+  {
+    "product_id": 7,
+    "product_name": "花瓶7",
+    "product_short_desc": "花瓶描述7",
+    "product_desc": "Nuxt is a progressive framework based on Vue.js to create modern web applications. It is based on Vue.js official libraries (vue, vue-router and vuex) and powerful development tools (webpack, Babel and PostCSS). Nuxt's goal is to make web development powerful and performant with a great developer experience in mind.",
+    "price": 10000,
+    "discount": 0,
+    "picture": "1",
+    "class": "vase"
+  },
+  {
+    "product_id": 8,
+    "product_name": "花瓶8",
+    "product_short_desc": "花瓶描述8",
+    "product_desc": "Nuxt is a progressive framework based on Vue.js to create modern web applications. It is based on Vue.js official libraries (vue, vue-router and vuex) and powerful development tools (webpack, Babel and PostCSS). Nuxt's goal is to make web development powerful and performant with a great developer experience in mind.",
+    "price": 10000,
+    "discount": 0,
+    "picture": "1",
+    "class": "vase"
+  }
+]
