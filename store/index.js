@@ -1,6 +1,9 @@
 export const strict = false
 
 export const state = () => ({
+  navbar_title: '古董店',
+  header_title: '古 董',
+  header_desc: '在 找 什 麼? Look Look',
   NavItems: [{
       icon: 'mdi-home-minus-outline',
       text: '首頁',
@@ -8,7 +11,7 @@ export const state = () => ({
     },
     {
       icon: 'mdi-puzzle',
-      text: '骨董',
+      text: '商品',
       link: '/product'
     },
     {
@@ -28,11 +31,11 @@ export const state = () => ({
     }
   ],
   drawer: false,
-  products: []
+  products: require('@/static/data/product.json')
 })
 
 export const mutations = {
   setProducts: (state, products) => (state.products = [...state.products, products]),
   setDrawer: (state, payload) => (state.drawer = payload),
-  toggleDrawer: state => (state.drawer = !state.drawer)
+  toggleDrawer: state => (state.drawer = !state.drawer),
 }

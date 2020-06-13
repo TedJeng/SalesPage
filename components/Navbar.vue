@@ -3,7 +3,7 @@
     <v-app-bar-nav-icon class="hidden-md-and-up" @click="toggleDrawer" />
     <v-container class="mx-auto py-0">
       <v-row align="center">
-        <span class="font-weight-light">{{ title }}</span>
+        <span class="font-weight-light">{{ $store.state.navbar_title }}</span>
         <v-spacer></v-spacer>
         <v-badge
           class="ma-2 hidden-sm-and-down"
@@ -47,8 +47,6 @@ export default {
       }
     }
   },
-  data: () => ({
-    title: '骨店'
-  })
+  data: () => ({})
 }
 </script>
