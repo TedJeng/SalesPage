@@ -47,14 +47,16 @@
       </v-hover>
     </v-col>
     <v-col cols="12" class="text-center" v-if="ShowMore()">
-      <v-btn class="ma-2" dark href="/product">查看更多</v-btn>
+      <v-btn class="ma-2" dark href="product">查看更多</v-btn>
     </v-col>
   </v-row>
 </template>
 
 <script>
 export default {
-  created() {
+  async created() {
+    await this.$store.dispatch('getProducts')
+    this.data = this.$store.state.products
     this.data.map(data => {
       if (data.picture === undefined || !data.picture) {
         data.picture = 'not_found'
@@ -111,8 +113,9 @@ export default {
       }
     }
   },
-  props: ['data', 'maxlength'],
+  props: ['maxlength'],
   data: () => ({
+    data: [],
     hover: false,
     product_class: []
   })

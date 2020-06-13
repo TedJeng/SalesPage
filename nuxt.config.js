@@ -3,7 +3,11 @@ const routerBase =
     router: {
       base: '/SalesPage/'
     }
-  } : {}
+  } : {
+    router: {
+      base: '/tedjeng/'
+    }
+  }
 
 export default {
   ...routerBase,

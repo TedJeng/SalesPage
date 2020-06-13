@@ -13,7 +13,7 @@
       </v-card>
     </v-col>
     <v-col cols="12">
-      <product :data="$store.state.products" maxlength="4"></product>
+      <product maxlength="4"></product>
     </v-col>
   </v-row>
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <product :data="$store.state.products"></product>
+  <product></product>
 </template>
 
 <script>
@@ -9,10 +9,6 @@ export default {
   components: {
     product
   },
-  created() {},
-  methods: {},
-  data: () => ({
-    product: []
-  })
+  data: () => ({})
 }
 </script>
