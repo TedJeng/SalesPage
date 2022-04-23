@@ -5,7 +5,7 @@ const routerBase =
     }
   } : {
     router: {
-      base: '/tedjeng/'
+      base: '/'
     }
   }
 
