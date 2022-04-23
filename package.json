@@ -2,7 +2,7 @@
   "name": "SalesPage",
   "version": "1.0.0",
   "description": "Sales Page with Vue and Nxut",
-  "author": "TedJeng",
+  "author": "TedCheng",
   "private": true,
   "scripts": {
     "dev": "nuxt",
@@ -17,7 +17,7 @@
     "@nuxtjs/axios": "^5.3.6"
   },
   "devDependencies": {
-    "@nuxtjs/vuetify": "^1.11.2",
+    "@nuxtjs/vuetify": "^1.12.3",
     "cross-env": "^7.0.2",
     "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-prettier": "^3.1.2",
