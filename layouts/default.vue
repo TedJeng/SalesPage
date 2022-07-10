@@ -2,12 +2,12 @@
   <v-app>
     <Navbar />
     <DrawMenu />
-    <v-content>
+    <v-main>
       <v-container fluid>
         <!-- main content -->
         <nuxt />
       </v-container>
-    </v-content>
+    </v-main>
   </v-app>
 </template>
 

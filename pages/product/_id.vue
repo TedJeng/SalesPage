@@ -1,5 +1,5 @@
 <template>
-  <v-content v-if="!loading">
+  <v-main v-if="!loading">
     <v-row justify="center">
       <v-col cols="12" class="text-center" v-if="!hasfind">
         找不到相關產品資訊!
@@ -42,7 +42,7 @@
         </v-row>
       </v-col>
     </v-row>
-  </v-content>
+  </v-main>
 </template>
 
 <script>
